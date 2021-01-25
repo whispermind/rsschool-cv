@@ -43,7 +43,7 @@
 
 ### CISCO 
 
-> IT Essentials 
+> IT Essentials  
 > 2018.01 - 2018.06  
 
 
@@ -64,7 +64,7 @@
 
 ### Ola language school 
 
-> English language 
+> English language  
 > 2017.03 - 2020.05  
 
 
