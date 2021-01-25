@@ -24,7 +24,7 @@
 
 
 ### Lviv polytechnic national university
-> **BA in Management of foreign economic activity**
+> **BA in Management of foreign economic activity**  
 > 2013 - 2017  
 
 > **Master in Management of foreign economic activity**  
