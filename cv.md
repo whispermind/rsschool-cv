@@ -24,45 +24,64 @@
 
 
 ### Lviv polytechnic national university
-> **BA in Management of foreign economic activity**
-> 2013 - 2017
-> **Master in Management of foreign economic activity**
+> **BA in Management of foreign economic activity**  
+
+> 2013 - 2017  
+
+> **Master in Management of foreign economic activity**  
+
 > 2017-2018
 
   
-## Certifications:
+## Certifications:  
 
 
-** IT Step **
+
+** IT Step **  
+
 > Software delelopment
 > 2018.01 - 2020.05
 
 
-** CISCO **
+** CISCO **  
+
 > IT Essentials 
-> 2018.01 - 2018.06
+> 2018.01 - 2018.06  
 
 
-** Stfalcon academy **
+
+** Stfalcon academy **  
+
 > Front-end development
-> 2021.02 - 2021.06
+> 2021.02 - 2021.06  
 
 
-** RS school **
+
+** RS school **  
+
 > Front-end development
-> 2021-02 - 2021-07
+> 2021-02 - 2021-07  
 
 
-** Ola language school **
-> English language
-> 2017.03 - 2020.05
+
+** Ola language school **  
+
+> English language 
+> 2017.03 - 2020.05  
+
 
  
-** Skills **
-> ES6, HTML/CSS, SASS/LESS, GULP, NPM
-> C++/C#, PHP(BASICS), MySQL(BASICS)
-> OOP, SOLID, KISS, MVP, Git/GitHub
-> English -Intermediate, Russian - native, Ukrainian - native, Polish - Elementary
+** Skills **  
+
+> ES6, HTML/CSS, SASS/LESS, GULP, NPM  
+
+> C++/C#, PHP(BASICS), MySQL(BASICS)  
+
+> OOP, SOLID, KISS, MVP, Git/GitHub  
+
+> English -Intermediate, Russian - native, Ukrainian - native, Polish - Elementary  
+  
+
 
 
 ## Code example 
