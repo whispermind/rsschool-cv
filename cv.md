@@ -28,7 +28,7 @@
 > 2013 - 2017  
 
 > **Master in Management of foreign economic activity**  
-> 2017-2018
+> 2017 - 2018
 
   
 ## Certifications:  
@@ -38,20 +38,20 @@
 ### IT Step  
 
 > Software delelopment  
-> 2018.01 - 2020.05
+> 2018-01 - 2020-05
 
 
 ### CISCO 
 
 > IT Essentials  
-> 2018.01 - 2018.06  
+> 2018-01 - 2018-06  
 
 
 
 ### Stfalcon academy 
 
 > Front-end development  
-> 2021.02 - 2021.06  
+> 2021-02 - 2021-06  
 
 
 
@@ -65,7 +65,7 @@
 ### Ola language school 
 
 > English language  
-> 2017.03 - 2020.05  
+> 2017-03 - 2020-05  
 
 
  
