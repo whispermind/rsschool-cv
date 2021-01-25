@@ -11,7 +11,7 @@
 
 
 ### Work Space
-> **co-founder, top manager**
+> **co-founder, top manager**  
 > 2016-08 - 2020-10
 
 
@@ -37,7 +37,7 @@
 
 ### IT Step  
 
-> Software delelopment
+> Software delelopment  
 > 2018.01 - 2020.05
 
 
@@ -50,14 +50,14 @@
 
 ### Stfalcon academy 
 
-> Front-end development
+> Front-end development  
 > 2021.02 - 2021.06  
 
 
 
 ### RS school 
 
-> Front-end development
+> Front-end development  
 > 2021-02 - 2021-07  
 
 
