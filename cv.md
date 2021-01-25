@@ -19,7 +19,7 @@
 
 
 ### Khmelnytskyi polytechnic college 
-> **Upper-Secondary Education in Production Management**
+> **Upper-Secondary Education in Production Management**  
 > 2009 - 2013
 
 
