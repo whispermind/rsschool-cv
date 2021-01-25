@@ -3,9 +3,9 @@
 ***feel free to ask*** 
 
 ## Contacts:
-  1. **Telegram:** @Stolenville
-  1.	**Viber:** +380978307795
-  1.	**E-mail:** h4vefun.dieyoung@gmail.com
+  + 	**Telegram:** @Stolenville
+  +	**Viber:** +380978307795
+  +	**E-mail:** h4vefun.dieyoung@gmail.com
 
 ## Expierence:
 
