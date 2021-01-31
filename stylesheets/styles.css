@@ -1,7 +1,7 @@
 @font-face {
   font-family: "MLP - Magic is Friendship";
-  src: url("../../fonts/fontie-package/MLP - Magic is Friendship.eot");
-  src: url("../../fonts/fontie-package/MLP - Magic is Friendship.eot?#iefix") format("embedded-opentype"), url("../../fonts/fontie-package/MLP - Magic is Friendship.woff2") format("woff2"), url("../../fonts/fontie-package/MLP - Magic is Friendship.woff") format("woff"), url("../../fonts/fontie-package/MLP - Magic is Friendship.ttf") format("truetype"), url("../../fonts/fontie-package/MLP - Magic is Friendship.otf") format("opentype"), url("../../fonts/fontie-package/MLP - Magic is Friendship.svg#MLP - Magic is Friendship") format("svg");
+  src: url("fonts/fontie-package/MLP - Magic is Friendship.eot");
+  src: url("fonts/fontie-package/MLP - Magic is Friendship.eot?#iefix") format("embedded-opentype"), url("fonts/fontie-package/MLP - Magic is Friendship.woff2") format("woff2"), url("fonts/fontie-package/MLP - Magic is Friendship.woff") format("woff"), url("fonts/fontie-package/MLP - Magic is Friendship.ttf") format("truetype"), url("fonts/fontie-package/MLP - Magic is Friendship.otf") format("opentype"), url("fonts/fontie-package/MLP - Magic is Friendship.svg#MLP - Magic is Friendship") format("svg");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -9,8 +9,8 @@
 }
 @font-face {
   font-family: "MLP";
-  src: url("../../fonts/fontie-package/MLP.eot");
-  src: url("../../fonts/fontie-package/MLP.eot?#iefix") format("embedded-opentype"), url("../../fonts/fontie-package/MLP.woff2") format("woff2"), url("../../fonts/fontie-package/MLP.woff") format("woff"), url("../../fonts/fontie-package/MLP.ttf") format("truetype"), url("../../fonts/fontie-package/MLP.otf") format("opentype"), url("../../fonts/fontie-package/MLP.svg#MLP") format("svg");
+  src: url("fonts/fontie-package/MLP.eot");
+  src: url("fonts/fontie-package/MLP.eot?#iefix") format("embedded-opentype"), url("fonts/fontie-package/MLP.woff2") format("woff2"), url("fonts/fontie-package/MLP.woff") format("woff"), url("fonts/fontie-package/MLP.ttf") format("truetype"), url("fonts/fontie-package/MLP.otf") format("opentype"), url("fonts/fontie-package/MLP.svg#MLP") format("svg");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -34,7 +34,7 @@ ul {
   margin: 0px;
 }
 
-#education {
+.hide {
   display: none;
 }
 

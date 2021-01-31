@@ -4,3 +4,4 @@ header.addEventListener('click', (event) => {
     about.classList.toggle('hide');
     education.classList.toggle('hide');
 });
+zs
