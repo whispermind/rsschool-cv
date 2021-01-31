@@ -17,6 +17,7 @@
   unicode-range: U+0020-2212;
 }
 a {
+  color: white;
   transition: 0.5s;
   text-decoration: none;
 }
@@ -40,7 +41,7 @@ ul {
 
 .wrapper {
   margin: 0 auto;
-  background-image: url("../../assets/img/background2.jpg");
+  background-image: url("assets/img/background2.jpg");
 }
 .wrapper .header-area {
   display: flex;
