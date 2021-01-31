@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <script src="/scripts/script.js"></script>
     <meta charset="UTF-8">
     <meta lang="en">
     <title>Document</title>
 </head>
 <body>
-    <div class="content-area">
-        <img src="assets/img/1.jpg" alt="">
-        <h1>Bohdan Paliantsa</h1>
-        <h2>About me</h2>
-        <p class="content-area-about"></p>
-        <h2>Contacts</h2>
-        <p class ="content-area-contacts"></p>
-        <h2>Expierence</h2>
-        <p class="content-area-expierence"></p>
-        <h2>Education</h2>
-        <p class="content-area-education"></p>
-        <h2>Certifications</h2>
-        <p class="content-area-certification"></p>
-        <h2>Skils</h2>
-        <a href="//github.com/whispermind">Watch for more</a>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="header-area">
+                    <img src="assets/img/logo.png" alt="">
+                    <ul>
+                        <li><a href="//github.com/whispermind" target="_blank">Git</a></li>
+                        <li><a href="">Skills/Education</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="content-area">
+                <section>
+                    <div class="content-area-photo">
+                            <img class = "test" src="/assets/img/face.png" alt="">
+                    </div>
+                    <div id="about">
+                        <h2>About</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nam eaque similique temporibus ut, iusto sunt perspiciatis est, aliquam recusandae natus eum eos beatae. Provident, explicabo quidem quo quibusdam alias ad nam consequatur eaque possimus enim, ratione minus labore eum veniam dicta praesentium maiores unde, animi quasi perspiciatis. Blanditiis dolore itaque ipsa nesciunt a unde fuga illo quae aliquam nisi laboriosam impedit molestiae consequuntur, labore possimus facere autem cumque soluta dolorem culpa quisquam quidem consequatur voluptatum. Commodi repudiandae pariatur ipsa.</p>
+                    </div>
+                    <div id='education'>
+                        <h2>Education</h2>
+                        <p></p>
+                        <h2>Certifications</h2>
+                        <p></p>
+                        <h2>Skills</h2>
+                        <p></p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-area">
+                <ul class="footer-area-contacts">
+                    <li class="icon"><a href="mailto:h4vefun.dieyoung@gmail.com"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 512 512" height="50px" id="Layer_1" version="1.1" viewBox="10 10 492 492" width="50px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle cx="255.999" cy="256" r="246.455"/></g><g id="Page-1"><g id="Icons-Communication" transform="translate(0.000000, -85.000000)"><g id="gmail" transform="translate(0.000000, 85.000000)"><path d="M384,128H128c-17.602,0-32,14.406-32,32v192c0,17.594,14.398,32,32,32h256     c17.594,0,32-14.406,32-32V160C416,142.406,401.594,128,384,128L384,128z M384,352h-32V211.203L256,272l-96-60.797V352h-32V160     h19.203L256,227.203L364.797,160H384V352L384,352z" fill="#FFFFFF" id="Shape"/></g></g></g></svg></a></li>
+                    <li class="icon"><a href="//vk.com/havefundieyoung"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 15 980 980" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                        <g><g><path d="M500,10C229.4,10,10,229.4,10,500c0,270.6,219.4,490,490,490c270.6,0,490-219.4,490-490C990,229.4,770.6,10,500,10z M688.4,562.8c0,0,43.3,42.8,54,62.6c0.3,0.4,0.5,0.8,0.6,1c4.3,7.3,5.4,13,3.2,17.2c-3.6,7-15.8,10.5-20,10.8c0,0-74.4,0-76.6,0c-5.3,0-16.4-1.4-29.9-10.7c-10.4-7.2-20.6-19.1-30.5-30.7c-14.9-17.3-27.7-32.2-40.7-32.2c-1.6,0-3.3,0.3-4.8,0.8c-9.8,3.2-22.4,17.1-22.4,54.4c0,11.6-9.2,18.3-15.7,18.3c0,0-33.4,0-35.1,0c-11.9,0-74.2-4.2-129.3-62.3c-67.5-71.2-128.2-214-128.7-215.3c-3.8-9.2,4.1-14.2,12.7-14.2h77.3c10.3,0,13.7,6.3,16,11.8c2.8,6.5,12.9,32.3,29.5,61.3c26.9,47.3,43.4,66.5,56.6,66.5c2.5,0,4.8-0.7,7.1-1.8c17.3-9.6,14-71.1,13.3-83.9c0-2.4-0.1-27.5-8.9-39.6c-6.3-8.7-17.1-12-23.6-13.3c1.7-2.5,5.5-6.3,10.2-8.6c11.8-5.9,33.2-6.8,54.4-6.8h11.8c23,0.3,28.9,1.8,37.2,3.9c16.8,4,17.2,14.9,15.7,52.1c-0.5,10.6-0.9,22.5-0.9,36.6c0,3.1-0.2,6.3-0.2,9.8c-0.5,18.9-1.1,40.4,12.3,49.3c1.7,1.1,3.7,1.7,5.8,1.7c4.6,0,18.6,0,56.5-65c16.6-28.7,29.5-62.5,30.4-65c0.8-1.3,3-5.4,5.7-7c2.1-1.2,4.9-1.5,6.3-1.5h90.9c9.9,0,16.7,1.5,18,5.3c2.2,6.1-0.4,24.6-41.9,80.8c-7,9.3-13.2,17.4-18.5,24.4C648.5,522.9,648.5,525.4,688.4,562.8L688.4,562.8z"/></g></g>
+                        </svg></a></li>
+                    <li class="icon"><a href="//facebook.com/bohdan.paliantsa"><svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="256 -156 412 412" style="enable-background:new 206 -206 512 512;" xml:space="preserve">
+                   <path id="facebook-circle-icon" d="M462.4-156c-113.8,0-206,92.2-206,206s92.2,206,206,206s206-92.2,206-206S576.2-156,462.4-156z
+                        M523.4-34.8c0,0-20.6,0-28.8,0c-10.2,0-12.3,4.2-12.3,14.7c0,8.8,0,25.4,0,25.4h41.1l-4,44.6h-37.1v133.2h-53.2V50.4h-27.7V5.3
+                       h27.7c0,0,0-6.5,0-35.6c0-33.4,17.8-50.8,57.4-50.8c6.5,0,36.8,0,36.8,0L523.4-34.8L523.4-34.8z"/>
+                   </svg></li>
+                    <li class="icon"><a href="viber://chat?number=380978307795"><svg height="50px" viewBox="0 0 512 512" width="50px" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm5.425781 405.050781c-.003906 0 .003907 0 0 0h-.0625c-25.644531-.011719-50.84375-6.441406-73.222656-18.644531l-81.222656 21.300781 21.738281-79.375c-13.410156-23.226562-20.464844-49.578125-20.453125-76.574219.035156-84.453124 68.769531-153.160156 153.222656-153.160156 40.984375.015625 79.457031 15.96875 108.382813 44.917969 28.929687 28.953125 44.851562 67.4375 44.835937 108.363281-.035156 84.457032-68.777343 153.171875-153.21875 153.171875zm0 0"/><path d="m261.476562 124.46875c-70.246093 0-127.375 57.105469-127.40625 127.300781-.007812 24.054688 6.726563 47.480469 19.472657 67.75l3.027343 4.816407-12.867187 46.980468 48.199219-12.640625 4.652344 2.757813c19.550781 11.601562 41.964843 17.738281 64.816406 17.746094h.050781c70.191406 0 127.320313-57.109376 127.351563-127.308594.011718-34.019532-13.222657-66.003906-37.265626-90.066406-24.042968-24.0625-56.019531-37.324219-90.03125-37.335938zm74.90625 182.035156c-3.191406 8.9375-18.484374 17.097656-25.839843 18.199219-6.597657.984375-14.941407 1.394531-24.113281-1.515625-5.5625-1.765625-12.691407-4.121094-21.828126-8.0625-38.402343-16.578125-63.484374-55.234375-65.398437-57.789062-1.914063-2.554688-15.632813-20.753907-15.632813-39.59375 0-18.835938 9.890626-28.097657 13.398438-31.925782 3.511719-3.832031 7.660156-4.789062 10.210938-4.789062 2.550781 0 5.105468.023437 7.335937.132812 2.351563.117188 5.507813-.894531 8.613281 6.570313 3.191406 7.664062 10.847656 26.5 11.804688 28.414062.957031 1.917969 1.59375 4.152344.320312 6.707031-1.277344 2.554688-5.519531 8.066407-9.570312 13.089844-1.699219 2.105469-3.914063 3.980469-1.679688 7.8125 2.230469 3.828125 9.917969 16.363282 21.296875 26.511719 14.625 13.039063 26.960938 17.078125 30.789063 18.996094 3.824218 1.914062 6.058594 1.59375 8.292968-.957031 2.230469-2.554688 9.570313-11.175782 12.121094-15.007813 2.550782-3.832031 5.105469-3.191406 8.613282-1.914063 3.511718 1.273438 22.332031 10.535157 26.160156 12.449219 3.828125 1.917969 6.378906 2.875 7.335937 4.472657.960938 1.597656.960938 9.257812-2.230469 18.199218zm0 0"/></svg></a></li>
+                    <li class="icon"><a href="//web.telegram.org/#/im?p=@Stolenville"><svg id="Bold" enable-background="new 0 0 24 24" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg"><path d="m12 24c6.629 0 12-5.371 12-12s-5.371-12-12-12-12 5.371-12 12 5.371 12 12 12zm-6.509-12.26 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"/></svg></a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

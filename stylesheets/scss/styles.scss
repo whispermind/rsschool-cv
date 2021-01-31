@@ -1,0 +1,93 @@
+@import "_fonts.scss";
+a{
+    transition: .5s;
+    text-decoration: none;
+    &:visited{
+        color: white;
+    }
+    &:hover{
+        color: cyan;
+        transition: 1.5s;
+        }
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hide{
+    display: none;
+}
+
+.wrapper{
+    margin: 0 auto;
+    background-image: url('../../assets/img/background2.jpg');
+    .header-area{
+        display: flex;
+        align-items: center;
+        font-family: 'MLP';
+        background-color: black;
+        img:first-child{
+            margin-left: 50px;
+        }
+        ul{
+            display: flex;
+            flex-grow: 1;
+            justify-content: flex-end;
+            margin-right: 150px;
+            font-size: 40px;
+            li{
+                margin-left: 50px;
+            }
+        }
+    }
+    .content-area{
+        display: flex;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
+        font-family: 'MLP - Magic is Friendship';
+        .content-area-photo{
+            & > img{
+                float: left;
+                shape-outside: circle(50%);
+                margin-right: 30px;
+            }
+            & > h1{
+                margin: 10px 0 0;
+                font-size: 45px;
+            }
+        }
+        & h2{
+            font-size: 30px;
+            text-align: right;
+        }
+        & p{
+            text-align: justify;
+        }
+    }
+    .footer-area{
+        margin-top: 156px;
+        ul{
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+        .icon svg{
+            width: 50px;
+            height: 50px;
+            margin-left: 75px;
+            transition: .5s;
+            &:hover{
+                width: 70px;
+                height: 70px;
+            fill: #2567b2;
+            transition: .5s;
+        }
+}
+    }
+}

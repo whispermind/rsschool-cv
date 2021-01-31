@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "MLP - Magic is Friendship";
+  src: url("../../fonts/fontie-package/MLP - Magic is Friendship.eot");
+  src: url("../../fonts/fontie-package/MLP - Magic is Friendship.eot?#iefix") format("embedded-opentype"), url("../../fonts/fontie-package/MLP - Magic is Friendship.woff2") format("woff2"), url("../../fonts/fontie-package/MLP - Magic is Friendship.woff") format("woff"), url("../../fonts/fontie-package/MLP - Magic is Friendship.ttf") format("truetype"), url("../../fonts/fontie-package/MLP - Magic is Friendship.otf") format("opentype"), url("../../fonts/fontie-package/MLP - Magic is Friendship.svg#MLP - Magic is Friendship") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+@font-face {
+  font-family: "MLP";
+  src: url("../../fonts/fontie-package/MLP.eot");
+  src: url("../../fonts/fontie-package/MLP.eot?#iefix") format("embedded-opentype"), url("../../fonts/fontie-package/MLP.woff2") format("woff2"), url("../../fonts/fontie-package/MLP.woff") format("woff"), url("../../fonts/fontie-package/MLP.ttf") format("truetype"), url("../../fonts/fontie-package/MLP.otf") format("opentype"), url("../../fonts/fontie-package/MLP.svg#MLP") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: cyan;
+  transition: 1.5s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+#education {
+  display: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-image: url("../../assets/img/background2.jpg");
+}
+.wrapper .header-area {
+  display: flex;
+  align-items: center;
+  font-family: "MLP";
+  background-color: black;
+}
+.wrapper .header-area img:first-child {
+  margin-left: 50px;
+}
+.wrapper .header-area ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 150px;
+  font-size: 40px;
+}
+.wrapper .header-area ul li {
+  margin-left: 50px;
+}
+.wrapper .content-area {
+  display: flex;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  font-family: "MLP - Magic is Friendship";
+}
+.wrapper .content-area .content-area-photo > img {
+  float: left;
+  shape-outside: circle(50%);
+  margin-right: 30px;
+}
+.wrapper .content-area .content-area-photo > h1 {
+  margin: 10px 0 0;
+  font-size: 45px;
+}
+.wrapper .content-area h2 {
+  font-size: 30px;
+  text-align: right;
+}
+.wrapper .content-area p {
+  text-align: justify;
+}
+.wrapper .footer-area {
+  margin-top: 156px;
+}
+.wrapper .footer-area ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.wrapper .footer-area .icon svg {
+  width: 50px;
+  height: 50px;
+  margin-left: 75px;
+  transition: 0.5s;
+}
+.wrapper .footer-area .icon svg:hover {
+  width: 70px;
+  height: 70px;
+  fill: #2567b2;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=styles.css.map */
