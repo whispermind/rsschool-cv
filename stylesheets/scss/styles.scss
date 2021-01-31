@@ -1,5 +1,6 @@
 @import "_fonts.scss";
 a{
+    color: white;
     transition: .5s;
     text-decoration: none;
     &:visited{
@@ -22,7 +23,7 @@ ul{
 
 .wrapper{
     margin: 0 auto;
-    background-image: url('../../assets/img/background2.jpg');
+    background-image: url('assets/img/background2.jpg');
     .header-area{
         display: flex;
         align-items: center;
