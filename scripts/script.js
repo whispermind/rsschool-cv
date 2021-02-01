@@ -10,5 +10,7 @@ header.addEventListener('click', (event) => {
         about.classList.toggle('hide');
     }
     if(id == 'aboutButton' && about.classList.contains('hide')){
+        about.classList.toggle('hide');
+        education.classList.toggle('hide');
     }
 });
