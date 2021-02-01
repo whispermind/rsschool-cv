@@ -42,6 +42,9 @@ ul {
 .wrapper {
   margin: 0 auto;
   background-image: url("../assets/img/background2.jpg");
+  background-position: top center;
+  background-attachment: fixed;
+  min-height: 980px;
 }
 .wrapper .header-area {
   display: flex;
@@ -90,19 +93,18 @@ ul {
   text-align: justify;
 }
 .wrapper .footer-area {
-  margin-top: 156px;
-}
-.wrapper .footer-area ul {
   display: flex;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
   height: 100px;
 }
+.wrapper .footer-area .icon {
+  margin-left: 75px;
+}
 .wrapper .footer-area .icon svg {
   width: 50px;
   height: 50px;
-  margin-left: 75px;
   transition: 0.5s;
 }
 .wrapper .footer-area .icon svg:hover {
