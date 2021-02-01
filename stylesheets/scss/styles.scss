@@ -23,11 +23,11 @@ ul{
 
 .wrapper{
     margin: 0 auto;
-    background-image: url('../assets/img/background2.jpg');
+    background-image: url("../assets/img/background2.jpg");
     .header-area{
         display: flex;
         align-items: center;
-        font-family: 'MLP';
+        font-family: "MLP";
         background-color: black;
         img:first-child{
             margin-left: 50px;
@@ -49,7 +49,7 @@ ul{
         margin-left: auto;
         margin-right: auto;
         margin-top: 200px;
-        font-family: 'MLP - Magic is Friendship';
+        font-family: "MLP - Magic is Friendship";
         .content-area-photo{
             & > img{
                 float: left;
@@ -61,8 +61,11 @@ ul{
                 font-size: 45px;
             }
         }
+        .content-area-description{
+            min-width: 650px;
+        }
         & h2{
-            font-size: 30px;
+            font-size: 20px;
             text-align: right;
         }
         & p{
