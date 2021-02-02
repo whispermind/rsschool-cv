@@ -22,11 +22,15 @@ ul{
 }
 
 .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     margin: 0 auto;
     background-image: url("../assets/img/background2.jpg");
     background-position: top center;
     background-attachment: fixed;
-    min-height: 980px;
+    background-repeat: no-repeat;
     .header-area{
         display: flex;
         align-items: center;
