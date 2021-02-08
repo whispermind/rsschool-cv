@@ -27,6 +27,7 @@ ul{
     background-position: top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
     user-select: none;
     .header-area{
         display: flex;
@@ -69,8 +70,8 @@ ul{
         }
         .education{
             display: none;
-            line-height: 1.2;
-            font-size: 1.02em;
+            line-height: 1.12;
+            font-size: 1.015em;
             p{
                 margin: 0;
                 font-family: 'Londrina Solid', cursive;
@@ -79,8 +80,8 @@ ul{
             ul{
                 text-align: right;
                 li{
-                    padding: 3px;
-                    display: inline;
+                    display: inline-block;
+                    padding: 3px 0;
                 }
             }
         }
@@ -90,6 +91,7 @@ ul{
         & h2{
             font-size: 1.4em;
             text-align: right;
+            margin: 10px 0;
         }
         & h3{
             margin: 0;

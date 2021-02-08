@@ -46,6 +46,7 @@ ul {
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
   user-select: none;
 }
 .wrapper .header-area {
@@ -88,8 +89,8 @@ ul {
 }
 .wrapper .content-area .education {
   display: none;
-  line-height: 1.2;
-  font-size: 1.02em;
+  line-height: 1.12;
+  font-size: 1.015em;
 }
 .wrapper .content-area .education p {
   margin: 0;
@@ -100,8 +101,8 @@ ul {
   text-align: right;
 }
 .wrapper .content-area .education ul li {
-  padding: 3px;
-  display: inline;
+  display: inline-block;
+  padding: 3px 0;
 }
 .wrapper .content-area .code {
   display: none;
@@ -109,6 +110,7 @@ ul {
 .wrapper .content-area h2 {
   font-size: 1.4em;
   text-align: right;
+  margin: 10px 0;
 }
 .wrapper .content-area h3 {
   margin: 0;
