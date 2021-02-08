@@ -37,7 +37,7 @@
 
 ### IT Step  
 
-> Software delelopment  
+> Software development  
 > 2018-01 - 2020-05
 
 

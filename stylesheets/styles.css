@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap");
 @font-face {
   font-family: "MLP - Magic is Friendship";
   src: url("../fonts/fontie-package/MLP - Magic is Friendship.eot");
@@ -35,10 +36,6 @@ ul {
   margin: 0px;
 }
 
-.hide {
-  display: none;
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -49,6 +46,7 @@ ul {
   background-position: top center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  user-select: none;
 }
 .wrapper .header-area {
   display: flex;
@@ -64,7 +62,7 @@ ul {
   flex-grow: 1;
   justify-content: flex-end;
   margin-right: 150px;
-  font-size: 40px;
+  font-size: calc(40 * 0.062vw);
 }
 .wrapper .header-area ul li {
   margin-left: 50px;
@@ -76,25 +74,55 @@ ul {
   margin-right: auto;
   margin-top: 200px;
   font-family: "MLP - Magic is Friendship";
+  font-size: 0.8em;
 }
 .wrapper .content-area .content-area-photo > img {
   float: left;
   shape-outside: circle(50%);
   margin-right: 30px;
 }
-.wrapper .content-area .content-area-photo > h1 {
-  margin: 10px 0 0;
-  font-size: 45px;
-}
 .wrapper .content-area .content-area-description {
   min-width: 650px;
+  min-height: 500px;
+  transition: 1s;
+}
+.wrapper .content-area .education {
+  display: none;
+}
+.wrapper .content-area .education p {
+  margin: 0;
+  font-family: "Londrina Solid", cursive;
+  text-align: right;
+}
+.wrapper .content-area .education ul {
+  text-align: right;
+}
+.wrapper .content-area .education ul li {
+  padding: 3px;
+  display: inline;
+}
+.wrapper .content-area .code {
+  display: none;
 }
 .wrapper .content-area h2 {
-  font-size: 20px;
+  font-size: 1.4em;
   text-align: right;
+}
+.wrapper .content-area h3 {
+  margin: 0;
+  text-align: right;
+  font-size: 1.2em;
+  font-family: "Londrina Solid", cursive;
 }
 .wrapper .content-area p {
   text-align: justify;
+  font-size: 1.1em;
+}
+.wrapper .content-area .active {
+  opacity: 1;
+}
+.wrapper .content-area .hidden {
+  opacity: 0;
 }
 .wrapper .footer-area {
   display: flex;
@@ -109,6 +137,7 @@ ul {
 .wrapper .footer-area .icon svg {
   width: 50px;
   height: 50px;
+  fill: black;
   transition: 0.5s;
 }
 .wrapper .footer-area .icon svg:hover {
