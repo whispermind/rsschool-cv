@@ -88,6 +88,8 @@ ul {
 }
 .wrapper .content-area .education {
   display: none;
+  line-height: 1.2;
+  font-size: 1.02em;
 }
 .wrapper .content-area .education p {
   margin: 0;
