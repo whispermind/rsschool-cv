@@ -56,6 +56,8 @@ ul{
         margin-top: 200px;
         font-family: "MLP - Magic is Friendship";
         font-size: 0.8em;
+        line-height: 1.35;
+        overflow-wrap: anywhere;
         .content-area-photo{
             & > img{
                 float: left;
@@ -64,7 +66,7 @@ ul{
             }
         }
         .content-area-description{
-            min-width: 650px;
+            min-width: 45vw;
             min-height: 500px;
             transition: 1s;
         }

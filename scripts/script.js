@@ -1,7 +1,8 @@
 let header = document.querySelector('.header-area'),
     about = document.querySelector('.about'),
     education = document.querySelector('.education'),
-    code = document.querySelector('.code');
+    code = document.querySelector('.code'),
+    status = false;
 
 header.addEventListener('click', (event) => {
     let id = event.target.id;
@@ -19,6 +20,8 @@ header.addEventListener('click', (event) => {
 });
 
 function show(element){
+    if(status) return 0
+    status = true;
     let active = document.querySelector('.active');
     active.addEventListener('transitionend', reActive);
     active.classList.remove('active');
@@ -30,5 +33,6 @@ function show(element){
             element.classList.remove('hidden');
             element.classList.add('active')}, 0);
             active.removeEventListener('transitionend', reActive);
+            status = false;
     }
 };
