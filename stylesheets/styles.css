@@ -29,6 +29,9 @@ a:hover {
   color: cyan;
   transition: 1.5s;
 }
+a:focus {
+  outline: none;
+}
 
 ul {
   list-style-type: none;
@@ -77,7 +80,6 @@ ul {
   font-family: "MLP - Magic is Friendship";
   font-size: 0.8em;
   line-height: 1.35;
-  overflow-wrap: anywhere;
 }
 .wrapper .content-area .content-area-photo > img {
   float: left;
@@ -85,14 +87,18 @@ ul {
   margin-right: 30px;
 }
 .wrapper .content-area .content-area-description {
-  min-width: 45vw;
-  min-height: 500px;
   transition: 1s;
+  min-width: 720px;
+  min-height: 530px;
+}
+.wrapper .content-area .about {
+  margin-top: 1px;
+  line-height: 1.5;
 }
 .wrapper .content-area .education {
   display: none;
-  line-height: 1.12;
-  font-size: 1.015em;
+  line-height: 1;
+  font-size: 1em;
 }
 .wrapper .content-area .education p {
   margin: 0;
@@ -112,6 +118,7 @@ ul {
 }
 .wrapper .content-area .code {
   display: none;
+  text-align: right;
 }
 .wrapper .content-area h2 {
   font-size: 1.4em;
@@ -126,7 +133,7 @@ ul {
 }
 .wrapper .content-area p {
   text-align: justify;
-  font-size: 1.095em;
+  font-size: 1em;
 }
 .wrapper .content-area .active {
   opacity: 1;
